@@ -1,7 +1,7 @@
-/* config-overrides.js */
-
-module.exports = function override(config, env) {
-  console.log('cra webpack config:', config, env);
-  //do stuff with the webpack config...
-  return config;
+module.exports = {
+  // The Webpack config to use when compiling your react app for development or production.
+  webpack: function(config, env) {
+    console.log('cra webpack-config:', config, env);
+    return config;
+  },
 };

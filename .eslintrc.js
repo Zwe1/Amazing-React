@@ -82,7 +82,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       webpack: {
-        config: './config/webpack.config.js',
+        config: './config-overrides.js',
       },
     },
   },
